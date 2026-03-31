@@ -26,7 +26,8 @@ Os usuários devem ser capazes de:
 
 ### Screenshot
 
-![Screenshot do Layout Desktop](./assets/images/screenshot-desktop.png)
+<img width="1920" height="915" alt="{5387BBED-3860-4B3A-87E6-DF63430B58BA}" src="https://github.com/user-attachments/assets/7d668be0-64e8-4614-96f1-29634d8eaf2f" />
+
 <img width="481" height="723" alt="{49B59233-8D4E-42E4-B6BE-00B2C5BE7BA8}" src="https://github.com/user-attachments/assets/40c9c36a-45c7-4db3-8436-048ccc746d35" />
 
 
