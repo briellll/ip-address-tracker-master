@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Addres Tracker</title>
+     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-header">
+        <h1 class="title">IP Addresss Tracker</h1>
+
+        <form class="search-container">
+
+            <input
+            class="search-input"
+            type="text"
+            placeholder="Procure por algum endereço IP ou dominio" >
+
+            <button type="submit" class="search-button">
+            <img src="assets/images/icon-arrow.svg" alt="">
+            </button>
+
+        </form>
+
+        <div class="container-card">
+
+            <div class="content-card">
+                <p>IP ADDRESS</p>
+                <span id="ip-display">192.212.174.101</span>
+            </div>
+
+            <div class="content-card">
+                <p>LOCATION</p>
+                <span id="location-display">Brooklyn, NY 10001</span>
+            </div>
+
+            <div class="content-card">
+                <p>TIMEZONE</p>
+                <span id="timezone-display">UTC-05:00</span>
+            </div>
+
+            <div class="content-card">
+                <p>ISP</p>
+                <span id="isp-display">SpaceX Starlink</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+</body>
+<script src="script.js"></script>
+</html>
