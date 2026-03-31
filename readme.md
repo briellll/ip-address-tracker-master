@@ -27,8 +27,7 @@ Os usuários devem ser capazes de:
 ### Screenshot
 
 ![Screenshot do Layout Desktop](./assets/images/screenshot-desktop.png)
-![Screenshot do Layout Mobile](<img width="481" height="723" alt="{49B59233-8D4E-42E4-B6BE-00B2C5BE7BA8}" src="https://github.com/user-attachments/assets/981508b5-108d-4c8b-b0c6-397baacb46d5" />
-)
+<img width="481" height="723" alt="{49B59233-8D4E-42E4-B6BE-00B2C5BE7BA8}" src="https://github.com/user-attachments/assets/40c9c36a-45c7-4db3-8436-048ccc746d35" />
 
 
 ## ⚙️ O Processo
